@@ -2,26 +2,26 @@ CODE TEMPLATE:
 //This is a single line comment (notes that won't be read as instructions to the computer).
 //Different syntax is used for comments depending on the language.
 
-//CHANGE ME: Add the title of your game
-//Add your first and last name 
+//CHANGE ME: Spelunky
+//Andrew B
 
 
-if (CHANGE ME: condition # 1) {
-    //Add event below
+if (holding 'Shift' key) {
+    run whenever player is moving;
 } else {
-    //Add event below
+    walk whenever player is moving;
 }
 
-if (CHANGE ME: condition # 2) {
-    //Add event below
+if (time passed in a level is more than 2 minutes, 30 seconds) {
+    send out the ghost;
 } else {
-    //Add event below
+    do not send out the ghost;
 }
 
-if (CHANGE ME: condition # 3) {
-    //Add event below
+if (player falls from a large height) {
+    player takes damage and is briefly unable to move;
 } else {
-    //Add event below
+    player takes no damage;
 }
 
 
